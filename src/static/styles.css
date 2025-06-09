@@ -65,6 +65,23 @@ section h3 {
   background-color: #f9f9f9;
 }
 
+.activity-card ul {
+  margin: 8px 0 0 18px;
+  padding-left: 0;
+  list-style-type: disc;
+  font-size: 15px;
+  color: #444;
+  background: #eef3fb;
+  border-radius: 4px;
+  border: 1px solid #dbe5f1;
+  padding: 8px 12px;
+}
+
+.activity-card ul li {
+  margin-bottom: 2px;
+  padding: 2px 0;
+}
+
 .activity-card h4 {
   margin-bottom: 10px;
   color: #0066cc;
@@ -72,6 +89,28 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.activity-card p strong {
+  color: #3949ab;
+}
+
+.activity-card .participants-title {
+  font-weight: bold;
+  color: #1565c0;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.activity-card .no-participants {
+  color: #b71c1c;
+  font-style: italic;
+}
+
+.activity-card .participant-email {
+  font-family: "Fira Mono", "Consolas", monospace;
+  color: #263238;
+  font-size: 14px;
 }
 
 .form-group {
